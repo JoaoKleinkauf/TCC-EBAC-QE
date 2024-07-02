@@ -1,0 +1,19 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Pedro",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "allure-commandline": "^2.29.0",
+    "appium": "^2.11.1",
+    "chromedriver": "^126.0.4",
+    "express": "^4.19.2",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-video-reporter": "^5.2.0"
+  }
+}
