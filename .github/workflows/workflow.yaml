@@ -9,7 +9,7 @@ jobs:
         steps:
           - uses: actions/checkout@v3
           - name: Using Node.js
-            uses: action/setup-node@v2
+            uses: actions/setup-node@v2
             with:
               node-version: 20.
           - name: run install test
