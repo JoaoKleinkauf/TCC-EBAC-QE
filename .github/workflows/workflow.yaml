@@ -1,0 +1,19 @@
+name: Integração contínua
+
+on: push
+
+jobs:
+    integracao-continua:
+        runs-on: ubuntu-latest
+
+        steps:
+          - uses: actions/checkout@v3
+          - name: Using Node.js
+            uses: action/setup-node@v2
+            with:
+              node-version: 20.
+          - name: run install test
+            run: |
+              npm install
+              npm run test
+                
